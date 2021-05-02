@@ -1,0 +1,53 @@
+  body{
+    padding: 5px;
+  }
+  .papername{
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+  }
+  .centeralign{
+    text-align: center;
+  }
+  .leftalign{
+    text-align: left;
+  }
+  .rightalign{
+    text-align: right;
+  }
+  .fullweight{
+    font-weight: 700;
+    font-size: 53px;
+  }
+  .navyblue{
+    color: navy;
+  }
+  .red{
+    color: rgb(190, 75, 75);
+    text-transform: uppercase;
+  }
+  .finalarticle{
+    font-family: 'Merienda', cursive;
+  }
+  .greybg{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .mobile{
+    display: none;
+  }
+
+  @media screen and (max-width:780px) {
+    .computer{
+      display: none;
+    }
+    .mobile{
+      display: block;
+    }
+  }
+  @media  screen and (min-width:610px)and (max-width:1000px) {
+    #csk{
+      position: absolute;
+      clip: rect(0px,120px,200px,0px);
+    }
+  }
