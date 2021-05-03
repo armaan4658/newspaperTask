@@ -36,7 +36,34 @@
   .mobile{
     display: none;
   }
-
+  .darkgreybg{
+    background-color: gray;
+    color: white;
+    text-align: center;
+  }
+  .articlep{
+    font-size: small;
+    line-height:90%;
+    letter-spacing: 2px;
+  }
+  .circle{
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    border-radius: 25px;
+  }
+  .pinkbg{
+    background-color: pink;
+  }
+  .bluebg{
+    background-color: blue;
+  }
+  .yellowbg{
+    background-color: yellow;
+  }
+  .circledisplay{
+    display: inline-block;
+  }
   @media screen and (max-width:780px) {
     .computer{
       display: none;
